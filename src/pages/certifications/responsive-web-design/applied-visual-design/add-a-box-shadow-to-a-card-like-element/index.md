@@ -3,8 +3,16 @@ title: Add a box-shadow to a Card-like Element
 ---
 ## Add a box-shadow to a Card-like Element
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/applied-visual-design/add-a-box-shadow-to-a-card-like-element/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Hi Everyone! I was having trouble with this page so I am sharing how it gets done. When you add ids you add them with a hash:tag or pound key (#). 
+So I kept writing the code like this:
+.thumbnail{
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+but I was supposed to write it like this :
+#thumbnail{
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+I hope that helps! 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+-Murrium
